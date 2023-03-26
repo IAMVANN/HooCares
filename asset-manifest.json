@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hoocares/static/css/main.853a0676.css",
+    "main.js": "/hoocares/static/js/main.d08de2a9.js",
+    "static/js/787.d7a1d374.chunk.js": "/hoocares/static/js/787.d7a1d374.chunk.js",
+    "static/media/ourphoto.jpg": "/hoocares/static/media/ourphoto.5f49b1630d92cf9eab26.jpg",
+    "index.html": "/hoocares/index.html",
+    "main.853a0676.css.map": "/hoocares/static/css/main.853a0676.css.map",
+    "main.d08de2a9.js.map": "/hoocares/static/js/main.d08de2a9.js.map",
+    "787.d7a1d374.chunk.js.map": "/hoocares/static/js/787.d7a1d374.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.853a0676.css",
+    "static/js/main.d08de2a9.js"
+  ]
+}
