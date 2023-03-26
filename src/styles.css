@@ -1,0 +1,254 @@
+/*Code for the index.html file*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.header .logo{
+    font-size: 25px;
+    font-family:"Courier", cursive;
+    color: black;
+    text-decoration: none;
+    margin-left: 0px;
+    justify-content: left;
+    float: left;
+}
+
+.header img {
+    margin-left: 0px;
+    border-radius: 50px;
+    justify-content: left;
+    padding-bottom: 5px;    
+}
+
+.paragraphs {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    margin-right: 10px;
+}
+
+.paragraphs p {
+    text-decoration: none;
+    color: black;
+    padding: 20px 15px;
+    margin: 0;
+    width: 22%;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background-image :  url(https://img.freepik.com/free-vector/medical-healthcare-blue-color_1017-26807.jpg?w=1800&t=st=1679772463~exp=1679773063~hmac=9d762edda55a28b71ee1e5137dff8cb8a2f5ff87c7d33f8de26bc26d84d8456a);
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%
+        rgba(0, 0, 0, 0) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    font-family:"Impact", cursive;
+    font-size: 85px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.intro p {
+    font-size: 20px;
+    color: rgb(63, 63, 63);
+    margin: 20px 0;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.apps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+  }
+
+.apps .tools {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+.apps .tools i{
+    width:fit-content;
+    font-size: 50px;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 12px;
+}
+.apps .tools .tools-header{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-family: "Impact";
+}
+.apps .tools .tools-text{
+    font-size: 15px;
+    color: black;
+    margin: 10px 0;
+    text-align: center;
+}
+.apps .tools button {
+    background-color: rgb(180, 215, 225);
+    color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255,255,255,.4);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(180, 215, 225);
+    padding: 20px 20px;
+}
+
+/*Code for bmi.html file*/
+.bmi-calculator {
+    font-size:x-large;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+  }
+
+.bmi-calculator h1{
+    font-family: "Courier";
+}
+
+.input{
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.bmi-calculator button {
+    background-color: rgb(180, 215, 225);
+    color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255,255,255,.4);
+    margin-top: 10px;
+}
+
+/*Code for calorie.html file*/
+.calorie-monitor {
+    font-size:x-large;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+.calorie-monitor h1{
+    font-family: "Courier";
+}
+
+.calorie-tracker {
+    margin:0 auto;
+    text-align: left;
+    width:50%;
+    font-weight: bold;
+}
+
+.calorie-monitor button {
+    background-color: rgb(180, 215, 225);
+    color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255,255,255,.4);
+    margin-top: 10px;
+}
+
+/*Code for about.html file*/
+.about {
+    font-size:x-large;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+
+.about h1{
+    font-family: "Courier";
+}
+
+/*Code for contact.html file*/
+.contact {
+    font-size:x-large;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+}
+.contact h1{
+    font-family: "Courier";
+}
+
+/*Code for kids.html file*/
+.header2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(180, 215, 255);
+}
+
+.header2 .cheesename{
+    font-size: 25px;
+    font-family:"Comic Sans";
+    color: white;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.header2 img {
+    margin-left: 0px;
+}
+
+.bodytext h1 {
+    font-size: 200;
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bodytext iframe {
+    display: block;
+    margin: 0 auto;
+}
