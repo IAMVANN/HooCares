@@ -34,31 +34,40 @@ const CalorieTracker = () => {
   }
   return (
       <>
-        <header class="header">
-          <p><Link to ="/">HooHacks 2023</Link></p>
-          <nav class="nav.items">
+        <header className="header">
+          <img src="https://th.bing.com/th/id/OIP._kf8BfjbuXwsblkQlXkNAgHaHa?pid=ImgDet&rs=1"  alt="Hoohacks logo" height="70"/>
+          <div className="paragraphs">
             <p><Link to ="/">Home</Link></p>
-            <p><Link to ="/about">about</Link></p>
-            <p><Link to ="/kids">kids</Link></p>
+            <p><Link to ="/about">About</Link></p>
+            <p><Link to ="/kids">Kids</Link></p>
             <p><Link to ="/contact">Contact</Link></p>
-          </nav>
+          </div>
         </header>
-        <p>CalorieTracker</p>
+      <div className="calorie-monitor">
+        <h1>Calorie Tracker</h1>
+        <hr />
+        <p>Food Name</p>
+        
         <input type = "text" placeholder="Pizza" value = {item} onChange = {(e) => setItem(e.target.value)} ></input>
+        <p>Calories</p>
         <input type = "text" value = {calories} onChange = {(e) => setCalories(e.target.value)}></input>
-        <button onClick={() => create()}>add</button>
-        <p>Total Calories : {totalCals} and {id}</p>
+        <br /><br />
+        <button onClick={() => create()}>Add</button>
+        <p>Total Calories : {totalCals}</p>
+        <hr />
+      </div>
 
-        <ul>
-      {
-        list.map((listItem) => (
-          <li key = {listItem.id}>
-            {listItem.item}
-            {listItem.calories}
-            <button onClick = {() => remove(listItem)}>X</button>
-          </li>
-        ))
-      }
+        <ul className="calorie-tracker">
+          {
+          list.map((listItem) => (
+            <li key = {listItem.id}>
+              Food: {listItem.item}{', '}
+              Calories: {listItem.calories}{' '}
+
+                <button className="specialbutton" onClick = {() => remove(listItem)}>X</button>
+            </li>
+          ))
+          }
     </ul>
       </>
 

@@ -10,7 +10,7 @@ import Kids from "./pages/kids"
 import Home from "./pages/home"
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-
+import './styles.css'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function App(){
     return (
